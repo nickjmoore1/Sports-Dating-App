@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0137DA7D1DAD878400C5BD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137DA7C1DAD878400C5BD4E /* AppDelegate.swift */; };
-		0137DA7F1DAD878400C5BD4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137DA7E1DAD878400C5BD4E /* ViewController.swift */; };
+		0137DA7F1DAD878400C5BD4E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137DA7E1DAD878400C5BD4E /* SignInVC.swift */; };
 		0137DA821DAD878500C5BD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0137DA801DAD878500C5BD4E /* Main.storyboard */; };
 		0137DA841DAD878500C5BD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0137DA831DAD878500C5BD4E /* Assets.xcassets */; };
 		0137DA871DAD878500C5BD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0137DA851DAD878500C5BD4E /* LaunchScreen.storyboard */; };
+		0137DA8F1DAD87F300C5BD4E /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0137DA8E1DAD87F300C5BD4E /* GoogleService-Info-3.plist */; };
+		B8AE938B9F24AB372D656223 /* libPods-Sports Dating App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076719487A52B193430915FB /* libPods-Sports Dating App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0137DA791DAD878400C5BD4E /* Sports Dating App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports Dating App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0137DA7C1DAD878400C5BD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0137DA7E1DAD878400C5BD4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0137DA7E1DAD878400C5BD4E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		0137DA811DAD878500C5BD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0137DA831DAD878500C5BD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0137DA861DAD878500C5BD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0137DA881DAD878500C5BD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0137DA8E1DAD87F300C5BD4E /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		076719487A52B193430915FB /* libPods-Sports Dating App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sports Dating App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC094DEF806E3B05DDA77B8F /* Pods-Sports Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sports Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sports Dating App/Pods-Sports Dating App.debug.xcconfig"; sourceTree = "<group>"; };
+		B5AC9B3E8C22AECF846D5EA1 /* Pods-Sports Dating App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sports Dating App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sports Dating App/Pods-Sports Dating App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8AE938B9F24AB372D656223 /* libPods-Sports Dating App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				0137DA7B1DAD878400C5BD4E /* Sports Dating App */,
 				0137DA7A1DAD878400C5BD4E /* Products */,
+				AD0A06F30A2B273D46DFFDCC /* Pods */,
+				95172D26A64051881517265F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,56 @@
 		0137DA7B1DAD878400C5BD4E /* Sports Dating App */ = {
 			isa = PBXGroup;
 			children = (
+				01BC747A1DAD92180045567C /* Model */,
+				01BC747C1DAD922B0045567C /* Controller */,
+				01BC747B1DAD92200045567C /* View */,
 				0137DA7C1DAD878400C5BD4E /* AppDelegate.swift */,
-				0137DA7E1DAD878400C5BD4E /* ViewController.swift */,
 				0137DA801DAD878500C5BD4E /* Main.storyboard */,
 				0137DA831DAD878500C5BD4E /* Assets.xcassets */,
 				0137DA851DAD878500C5BD4E /* LaunchScreen.storyboard */,
 				0137DA881DAD878500C5BD4E /* Info.plist */,
+				0137DA8E1DAD87F300C5BD4E /* GoogleService-Info-3.plist */,
 			);
 			path = "Sports Dating App";
+			sourceTree = "<group>";
+		};
+		01BC747A1DAD92180045567C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01BC747B1DAD92200045567C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01BC747C1DAD922B0045567C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0137DA7E1DAD878400C5BD4E /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		95172D26A64051881517265F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076719487A52B193430915FB /* libPods-Sports Dating App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0A06F30A2B273D46DFFDCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC094DEF806E3B05DDA77B8F /* Pods-Sports Dating App.debug.xcconfig */,
+				B5AC9B3E8C22AECF846D5EA1 /* Pods-Sports Dating App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0137DA8B1DAD878500C5BD4E /* Build configuration list for PBXNativeTarget "Sports Dating App" */;
 			buildPhases = (
+				D7AC3C01B0D18A7EB80D4D33 /* Check Pods Manifest.lock */,
 				0137DA751DAD877C00C5BD4E /* Sources */,
 				0137DA761DAD877C00C5BD4E /* Frameworks */,
 				0137DA771DAD877C00C5BD4E /* Resources */,
+				CCF36EED4B7AD9442BD65CD3 /* Embed Pods Frameworks */,
+				69E6DF9F82FEFFB82A5D2E4F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,17 +180,66 @@
 				0137DA871DAD878500C5BD4E /* LaunchScreen.storyboard in Resources */,
 				0137DA841DAD878500C5BD4E /* Assets.xcassets in Resources */,
 				0137DA821DAD878500C5BD4E /* Main.storyboard in Resources */,
+				0137DA8F1DAD87F300C5BD4E /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69E6DF9F82FEFFB82A5D2E4F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sports Dating App/Pods-Sports Dating App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF36EED4B7AD9442BD65CD3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sports Dating App/Pods-Sports Dating App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AC3C01B0D18A7EB80D4D33 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0137DA751DAD877C00C5BD4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0137DA7F1DAD878400C5BD4E /* ViewController.swift in Sources */,
+				0137DA7F1DAD878400C5BD4E /* SignInVC.swift in Sources */,
 				0137DA7D1DAD878400C5BD4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +359,7 @@
 		};
 		0137DA8C1DAD878500C5BD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC094DEF806E3B05DDA77B8F /* Pods-Sports Dating App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sports Dating App/Info.plist";
@@ -268,6 +372,7 @@
 		};
 		0137DA8D1DAD878500C5BD4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AC9B3E8C22AECF846D5EA1 /* Pods-Sports Dating App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sports Dating App/Info.plist";
@@ -297,6 +402,7 @@
 				0137DA8D1DAD878500C5BD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
